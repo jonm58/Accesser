@@ -134,6 +134,7 @@ nameserver = [
 "*.redditinc.com" = ["fastly.com"]
 "mastodon.social" = ["fastly.com"]
 "*.mastodon.social" = ["fastly.com"]
+"*.tenor.com"" = ["google.com"]
 
 
 [hosts]
@@ -145,6 +146,7 @@ nameserver = [
 "dot.sb" = "185.222.222.222"
 # "dns.adguard-dns.com" = "94.140.14.14"
 
+".tenor.com"" = ["google.com"]
 "sketch.pixiv.net" = "210.140.174.37"
 "img-sketch.pixiv.net" = "210.140.131.145"
 "source.pixiv.net" = "210.140.131.153"
