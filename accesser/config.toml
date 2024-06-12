@@ -134,7 +134,7 @@ nameserver = [
 "*.redditinc.com" = ["fastly.com"]
 "mastodon.social" = ["fastly.com"]
 "*.mastodon.social" = ["fastly.com"]
-"*.tenor.com"" = ["google.com"]
+"*.tenor.com" = ["google.cn"]
 
 
 [hosts]
