@@ -25,6 +25,9 @@ var domains = {
   "phncdn.com": 1,
   "pinterest.com": 1,
   "pixiv.net": 1,
+  "pixiv.cat": 1,
+  "pixiv.re": 1,
+  "pixiv.nl": 1,
   "quora.com": 1,
   "redd.it": 1,
   "reddit.com": 1,
@@ -61,7 +64,12 @@ var domains = {
   "scratch.mit.edu": 1,
   "bandcamp.com": 1,
   "mastodon.social": 1,
-  "hub.docker.com": 1
+  "hub.docker.com": 1,
+  "b-cdn.net": 1,
+  "disqus.com": 1,
+  "disquscdn.com": 1,
+  "disq.us": 1,
+  "rentry.co": 1
 };
 
 var shexps = {
