@@ -3,7 +3,7 @@
 
 # 是否校验证书域名？false 不进行校验，true 进行宽松的校验（如a.example.com能匹配b.example.com），"strict" 进行标准的校验。
 # Whether to verify the certificate domains? Set to false for no verification, set to true for loose verification (e.g. a.example.com matches b.example.com), set to "strict" for standard verification.
-check_hostname = false
+check_hostname = true
 
 # 是否自动设置系统的代理（目前只对Windows有效）。这可使用命令行参数 --notsetproxy 来覆盖。
 # Whether to set the system proxy automatically (currently only valid for Windows). This can be overridden with the command line argument --notsetproxy.
@@ -15,7 +15,7 @@ importca = true
 
 # 是否开启IPv6支持
 # Whether to enable IPv6 support
-ipv6 = false
+ipv6 = true
 
 
 [log]
@@ -87,6 +87,7 @@ nameserver = [
 "s2.hdslb.com" = "Diamond_Dust.alicdn.com"
 "s3.hdslb.com" = "Morfonica.alicdn.com"
 "upos-sz-mirror08c.bilivideo.com" = "appgallery.huawei.com"
+"upos-sz-mirror08ct.bilivideo.com" = "Saki_Hanami.ctcdn.cn"
 "upos-sz-mirror08h.bilivideo.com" = "appgallery.huawei.com"
 "upos-sz-mirrorcos.bilivideo.com" = "xn--()-o13aus685jthap52adx4b1ccrsrl91bxbdwr5apudf51i.cdn.myqcloud.com"
 "upos-sz-mirrorcosb.bilivideo.com" = "luna_say_maybe.a.yximgs.com"
@@ -133,6 +134,7 @@ nameserver = [
 "s2.hdslb.com" = ["alicdn.com"]
 "s3.hdslb.com" = ["alicdn.com"]
 "upos-sz-mirror08c.bilivideo.com" = ["appgallery.huawei.com"]
+"upos-sz-mirror08ct.bilivideo.com" = ["ctcdn.cn"]
 "upos-sz-mirror08h.bilivideo.com" = ["appgallery.huawei.com"]
 "upos-sz-mirrorcos.bilivideo.com" = ["cdn.myqcloud.com"]
 "upos-sz-mirrorcosb.bilivideo.com" = ["a.yximgs.com", "a.etoote.com", "a.yximgs.com"]
@@ -173,13 +175,9 @@ nameserver = [
 "dot.sb" = "185.222.222.222"
 # "dns.adguard-dns.com" = "94.140.14.14"
 
-"i0.hdslb.com" = "121.194.10.88"
-"i1.hdslb.com" = "121.194.10.88"
-"i2.hdslb.com" = "121.194.10.88"
-"s1.hdslb.com" = "121.194.10.88"
-"s2.hdslb.com" = "121.194.10.88"
-"s3.hdslb.com" = "121.194.10.88"
+".hdslb.com" = "121.194.10.88"
 "upos-sz-mirror08c.bilivideo.com" = "117.161.125.36"
+"upos-sz-mirror08c.bilivideo.com" = "183.61.184.197"
 "upos-sz-mirror08h.bilivideo.com" = "111.63.106.4"
 "upos-sz-mirrorcos.bilivideo.com" = "61.240.216.135"
 "upos-sz-mirrorcosb.bilivideo.com" = "116.162.124.9"
