@@ -50,7 +50,6 @@ pac_host = "127.0.0.1"
 # DNS server address. You can specify bootstrap IP address in the [hosts] field below.
 nameserver = [
   "tls://9.9.9.9",
-  "114.114.114.114",
   "tls://223.5.5.5",
   "https://185.222.222.222/dns-query",# https://host|IP[:port]/path # DNS-over-HTTPS (DoH)
   "https://45.11.45.11/dns-query",
