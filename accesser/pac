@@ -69,6 +69,7 @@ var domains = {
   "disqus.com": 1,
   "disquscdn.com": 1,
   "disq.us": 1,
+  "catbox.moe": 1,
   "rentry.co": 1
 };
 
