@@ -100,6 +100,7 @@ nameserver = [
 "extensions-discovery-images.twitch.tv" = "d3m1uefep57n8q.cloudfront.net"
 "gn-web-assets.api.bbc.com" = "static-web-assets.gnl-common.bbcverticals.com"
 "onedrive.live.com" = "0.azureedge.net"
+"litterbox.catbox.moe" = "catbox.llc"
 
 
 [cert_verify]
@@ -143,6 +144,7 @@ nameserver = [
 "dot.sb" = "185.222.222.222"
 # "dns.adguard-dns.com" = "94.140.14.14"
 
+"litterbox.catbox.moe = "108.181.20.36"
 "sketch.pixiv.net" = "210.140.174.37"
 "img-sketch.pixiv.net" = "210.140.131.145"
 "source.pixiv.net" = "210.140.131.153"
